@@ -1,0 +1,11 @@
+applications:
+   - name: Sample-Live-Streaming
+     memory: 512MB
+     buildpack: https://github.com/cloudfoundry/python-buildpack.git
+     command: "python App.py"
+     env:
+      BUILDPACK_XTRACE: "SOMETHING"
+      BUILDPACK_CLEAR_CACHE: "1"
+      dbAppUrl: ""
+      client_id: ""
+     services:

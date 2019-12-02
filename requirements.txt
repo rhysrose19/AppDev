@@ -1,0 +1,8 @@
+Flask
+pandas
+psycopg2
+sqlalchemy
+requests
+xlrd
+dash==0.42.0
+dash-daq==0.1.0
